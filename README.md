@@ -1,3 +1,3 @@
 # Rpi-light-measurement
 
-more to follow
+Measure light with a TSL2591

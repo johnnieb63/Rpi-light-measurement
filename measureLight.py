@@ -10,7 +10,7 @@ import smbus
 import time
 from ubidots import ApiClient
 
-api = ApiClient("ee40620f57b67d41db9d7e40f101768870283e41")
+api = ApiClient("your token")
 
 VISIBLE = 2  # channel 0 - channel 1
 INFRARED = 1  # channel 1
@@ -188,15 +188,15 @@ if __name__ == '__main__':
    # print (lux, full, ir)
 
     api.save_collection([
-            {'variable': '5781e9067625427ba7fd69d1', 'value': lux},
+            {'variable': 'kdjsghkdsjghdgskjhd', 'value': lux},
             ])
 
     api.save_collection([
-            {'variable': '5781e91d7625427ddecde50c', 'value': full},
+            {'variable': 'kjfsdhksjhakjfdh', 'value': full},
             ])
 
     api.save_collection([
-            {'variable': '5781e9287625427d42ba1db9', 'value': ir},
+            {'variable': 'kjfshdkjhdfskjh', 'value': ir},
             ])
 
 
